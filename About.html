@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: cursive;
+            background-color: rgb(254, 243, 229);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 300%;
+        }
+
+        ol {
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+        li {
+            margin-top: 3%;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            overflow-x: auto;
+        }
+
+        .logo {
+            margin-left: 2%;
+            font-weight: bold;
+            font-size: 1.2rem;
+            white-space: nowrap;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1rem;
+            white-space: nowrap;
+            overflow-x: auto;
+        }
+
+        .nav-links h5 {
+            margin: 0;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        @media (max-width: 600px) {
+            .navbar {
+                flex-direction: row;
+                align-items: center;
+            }
+
+            .nav-links {
+                flex-direction: row;
+                flex-wrap: nowrap;
+            }
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Varshit Kumar</div>
+        <div class="nav-links">
+            <a href="index.html">
+                <h5>Home</h5>
+            </a>
+            <a href="About.html">
+                <h5>About</h5>
+            </a>
+            <a href="Experience.html">
+                <h5>Experience</h5>
+            </a>
+            <a style="margin-right: 180px;" href="contact.html">
+                <h5>Contact</h5>
+            </a>
+        </div>
+    </div>
+    <h1>
+        Education
+    </h1>
+    <ol>
+        <li>B.Tech in Computer Science and Engineering ,
+            SRM Institute of Science and Technology <br>
+            Batch : 2022 – 2026 <br>
+            CGPA: 7.75</li>
+        <li>Class 12 (CBSE) <br>Arpan Public School, Thana Bhawan <br>
+            Year of Passing: 2021 <br>
+            Percentage: 70% </li>
+        <li>
+            Class 10 (CBSE) <br>Arpan Public School, Thana Bhawan <br>
+            Year of Passing: 2019 <br>
+            Percentage: 66.66%
+        </li>
+    </ol>
+</body>
+
+</html>
